@@ -1,0 +1,39 @@
+{
+  "identifier": "1BE2D841-65EC-4E63-935C-C11E4DA60E4C",
+  "nonRenewingSubscriptions": [],
+  "products": [
+    {
+      "displayPrice": "0.99",
+      "familyShareable": false,
+      "internalID": "7633D5FF-E376-4D55-BB24-91BFFBF99E05",
+      "localizations": [
+        {
+          "description": "Support the development of DropShelf with a coffee.",
+          "displayName": "Buy me a coffee",
+          "locale": "en_US"
+        },
+        {
+          "description": "DropShelf geliştirmesini bir kahveyle destekleyin.",
+          "displayName": "Bana bir kahve ısmarla",
+          "locale": "tr_TR"
+        }
+      ],
+      "productID": "agency.okaymedia.DropShelf.tip.coffee",
+      "referenceName": "Coffee Tip",
+      "type": "Consumable"
+    }
+  ],
+  "settings": {
+    "_applicationInternalID": "0",
+    "_developerTeamID": "XU5SY9X97G",
+    "_failTransactionsEnabled": false,
+    "_locale": "en_US",
+    "_storefront": "USA",
+    "_storeKitErrors": []
+  },
+  "subscriptionGroups": [],
+  "version": {
+    "major": 3,
+    "minor": 0
+  }
+}

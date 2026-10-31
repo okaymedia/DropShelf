@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		005AB098D08801F680DEDC2D /* ShelfPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB750462141A5D1C76CC9832 /* ShelfPanel.swift */; };
+		038E465E877735B418FD64C9 /* DropShelfApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4354FA22CACBA0B4C97AF3F3 /* DropShelfApp.swift */; };
+		0F22038EC5CC0C5FF9F1577E /* ModelPersistenceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70BBFD1D1B102F3D5E6C07C /* ModelPersistenceTests.swift */; };
+		118741C966DC65E438A69305 /* ShelfPanelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984447CF87CAFA6A7A5FE9FA /* ShelfPanelController.swift */; };
+		149010B1AEF178E900008479 /* ShelfDragView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E1FC518E48C6FDA963E007 /* ShelfDragView.swift */; };
+		165979AE80CBED939AA431EC /* DropShelf.storekit in Resources */ = {isa = PBXBuildFile; fileRef = 5FCAFB2ACD116B3839D53700 /* DropShelf.storekit */; };
+		2014C630582872D63F0EAD02 /* ShelfItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DFA0BDD2EA5598CDC582DC /* ShelfItem.swift */; };
+		295673ACC062A55F27110505 /* PreferencesWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25398BCD7ED1E103106AFB0A /* PreferencesWindowController.swift */; };
+		2DDF47F330634518B0722FC3 /* ShelfStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FEB6CA325E7A397B6031B4 /* ShelfStore.swift */; };
+		3A75797F1DF6EC576034DC4B /* TipJarService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D282641B22BFC7C10978C97 /* TipJarService.swift */; };
+		447F4178B8FF80A1C611DAFA /* PersistenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB418C269C1662904A87713 /* PersistenceService.swift */; };
+		47884BDF068A871F26F2F7BC /* ShelfDragState.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF8FEB93B72CE0ACCC208FE /* ShelfDragState.swift */; };
+		541EADF187E68273967873BD /* LoginItemService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B247E22AD07D57EAAB708F0 /* LoginItemService.swift */; };
+		5B2295FAFC8852360E786B7C /* TipJarServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DF96ED4BA310F61F4198A9 /* TipJarServiceTests.swift */; };
+		6293DF5A542E95772FDC84B4 /* BookmarkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831535F38BE2C8947C40F385 /* BookmarkService.swift */; };
+		87DBCA4DFAB63D0A0B696A99 /* HotKeyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658208B29AE4C5D4831146C9 /* HotKeyService.swift */; };
+		8F04A7578171132C4BDEA8EC /* QuickLookService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFF871BAB1C21F3C8188078 /* QuickLookService.swift */; };
+		91ECA59CCA05E4C439152BF3 /* OnboardingWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A17EC006C77DBF43838B12 /* OnboardingWindowController.swift */; };
+		98767D88D638470F3CFCD1E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7248E9FE26122D560B68FA37 /* AppDelegate.swift */; };
+		9DA36DADB1E9C98A47679BE6 /* ShelfStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CB5328DA2749588D00C573 /* ShelfStoreTests.swift */; };
+		A4F5FF0A1FD8F99AB1A8CECC /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = EBC30C9E25129CE90E5B8EFF /* Localizable.xcstrings */; };
+		AABB5E46CF13BBD4E9BC4706 /* PreferencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115DAC3E0EEABE6216D099E1 /* PreferencesView.swift */; };
+		B10F6E5F9BA5B6FFB810106E /* ShelfDropState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921118AD995E621379169EF3 /* ShelfDropState.swift */; };
+		B81576031D4BFE45227CE09C /* ShelfActionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24344611B372D6CF1C786C3 /* ShelfActionService.swift */; };
+		B89FAF73953C7A0922D03FC5 /* ShelfRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37480018238372916DBCB2A2 /* ShelfRootView.swift */; };
+		BB374FEF22061C01D9DDB09E /* TipJarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27411B82F6C18CF95828448 /* TipJarView.swift */; };
+		BED00DC4C561BFEAD640AD55 /* ShelfHostingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E98DBC71AFD3F4F7D188C04 /* ShelfHostingView.swift */; };
+		C614361D2F49C41DCEFB2113 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCC0C3A0D966512422CFCDDE /* Assets.xcassets */; };
+		EFC2BA3D0DC0F76B7BE42173 /* DropShelfTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077B215C5B568120101B9A78 /* DropShelfTests.swift */; };
+		F56F26D7BC488AF44FCBCDDB /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029322DC405C16BB5B069160 /* OnboardingView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		415225E95E4E15624B722E99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB0B669E0A7CD74B445A3E6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04785A3A08B44208E27C23C8;
+			remoteInfo = DropShelf;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		029322DC405C16BB5B069160 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		077B215C5B568120101B9A78 /* DropShelfTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropShelfTests.swift; sourceTree = "<group>"; };
+		115DAC3E0EEABE6216D099E1 /* PreferencesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesView.swift; sourceTree = "<group>"; };
+		12FEB6CA325E7A397B6031B4 /* ShelfStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelfStore.swift; sourceTree = "<group>"; };
+		19E1FC518E48C6FDA963E007 /* ShelfDragView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelfDragView.swift; sourceTree = "<group>"; };
+		1D182D4E6E3AE69396B19098 /* DropShelf.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DropShelf.entitlements; sourceTree = "<group>"; };
+		25398BCD7ED1E103106AFB0A /* PreferencesWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesWindowController.swift; sourceTree = "<group>"; };
+		2EB418C269C1662904A87713 /* PersistenceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceService.swift; sourceTree = "<group>"; };
+		36C6D9A8793F1AFBA0FBC117 /* DropShelf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DropShelf.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		36CB5328DA2749588D00C573 /* ShelfStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelfStoreTests.swift; sourceTree = "<group>"; };
+		37480018238372916DBCB2A2 /* ShelfRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelfRootView.swift; sourceTree = "<group>"; };
+		42A17EC006C77DBF43838B12 /* OnboardingWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingWindowController.swift; sourceTree = "<group>"; };
+		4354FA22CACBA0B4C97AF3F3 /* DropShelfApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropShelfApp.swift; sourceTree = "<group>"; };
+		5E98DBC71AFD3F4F7D188C04 /* ShelfHostingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelfHostingView.swift; sourceTree = "<group>"; };
+		5FCAFB2ACD116B3839D53700 /* DropShelf.storekit */ = {isa = PBXFileReference; path = DropShelf.storekit; sourceTree = "<group>"; };
+		658208B29AE4C5D4831146C9 /* HotKeyService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotKeyService.swift; sourceTree = "<group>"; };
+		69DFA0BDD2EA5598CDC582DC /* ShelfItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelfItem.swift; sourceTree = "<group>"; };
+		6B247E22AD07D57EAAB708F0 /* LoginItemService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginItemService.swift; sourceTree = "<group>"; };
+		6D282641B22BFC7C10978C97 /* TipJarService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipJarService.swift; sourceTree = "<group>"; };
+		7248E9FE26122D560B68FA37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		831535F38BE2C8947C40F385 /* BookmarkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkService.swift; sourceTree = "<group>"; };
+		921118AD995E621379169EF3 /* ShelfDropState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelfDropState.swift; sourceTree = "<group>"; };
+		984447CF87CAFA6A7A5FE9FA /* ShelfPanelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelfPanelController.swift; sourceTree = "<group>"; };
+		AFF8FEB93B72CE0ACCC208FE /* ShelfDragState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelfDragState.swift; sourceTree = "<group>"; };
+		AFFF871BAB1C21F3C8188078 /* QuickLookService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickLookService.swift; sourceTree = "<group>"; };
+		B27411B82F6C18CF95828448 /* TipJarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipJarView.swift; sourceTree = "<group>"; };
+		B70BBFD1D1B102F3D5E6C07C /* ModelPersistenceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelPersistenceTests.swift; sourceTree = "<group>"; };
+		BB750462141A5D1C76CC9832 /* ShelfPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelfPanel.swift; sourceTree = "<group>"; };
+		CCC0C3A0D966512422CFCDDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D19BDB042239EB8FD3D93300 /* DropShelfTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DropShelfTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9DF96ED4BA310F61F4198A9 /* TipJarServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipJarServiceTests.swift; sourceTree = "<group>"; };
+		E24344611B372D6CF1C786C3 /* ShelfActionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelfActionService.swift; sourceTree = "<group>"; };
+		EBC30C9E25129CE90E5B8EFF /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		2A529DA703F5253756FE5A83 /* DropShelf */ = {
+			isa = PBXGroup;
+			children = (
+				8C8E0ABE2ACACF87510AC3A0 /* App */,
+				9C42426440FA993A099401C5 /* Models */,
+				2C5124678BAC2C31CA0C91BF /* Resources */,
+				2ACBD994AFAE23DD2E3E0957 /* Services */,
+				515EBE190F354C9E0B9EF8EC /* Views */,
+				DE9D86A05EF0819C95D55DAE /* Window */,
+			);
+			path = DropShelf;
+			sourceTree = "<group>";
+		};
+		2ACBD994AFAE23DD2E3E0957 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				831535F38BE2C8947C40F385 /* BookmarkService.swift */,
+				658208B29AE4C5D4831146C9 /* HotKeyService.swift */,
+				6B247E22AD07D57EAAB708F0 /* LoginItemService.swift */,
+				2EB418C269C1662904A87713 /* PersistenceService.swift */,
+				AFFF871BAB1C21F3C8188078 /* QuickLookService.swift */,
+				E24344611B372D6CF1C786C3 /* ShelfActionService.swift */,
+				AFF8FEB93B72CE0ACCC208FE /* ShelfDragState.swift */,
+				921118AD995E621379169EF3 /* ShelfDropState.swift */,
+				12FEB6CA325E7A397B6031B4 /* ShelfStore.swift */,
+				6D282641B22BFC7C10978C97 /* TipJarService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		2C5124678BAC2C31CA0C91BF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CCC0C3A0D966512422CFCDDE /* Assets.xcassets */,
+				1D182D4E6E3AE69396B19098 /* DropShelf.entitlements */,
+				5FCAFB2ACD116B3839D53700 /* DropShelf.storekit */,
+				EBC30C9E25129CE90E5B8EFF /* Localizable.xcstrings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2DEE7B30CA71C4831092DDEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36C6D9A8793F1AFBA0FBC117 /* DropShelf.app */,
+				D19BDB042239EB8FD3D93300 /* DropShelfTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		515EBE190F354C9E0B9EF8EC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				029322DC405C16BB5B069160 /* OnboardingView.swift */,
+				115DAC3E0EEABE6216D099E1 /* PreferencesView.swift */,
+				19E1FC518E48C6FDA963E007 /* ShelfDragView.swift */,
+				37480018238372916DBCB2A2 /* ShelfRootView.swift */,
+				B27411B82F6C18CF95828448 /* TipJarView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8C8E0ABE2ACACF87510AC3A0 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				7248E9FE26122D560B68FA37 /* AppDelegate.swift */,
+				4354FA22CACBA0B4C97AF3F3 /* DropShelfApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		9C42426440FA993A099401C5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				69DFA0BDD2EA5598CDC582DC /* ShelfItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A520B2CFA82D42958EF56A4D /* DropShelfTests */ = {
+			isa = PBXGroup;
+			children = (
+				077B215C5B568120101B9A78 /* DropShelfTests.swift */,
+				B70BBFD1D1B102F3D5E6C07C /* ModelPersistenceTests.swift */,
+				36CB5328DA2749588D00C573 /* ShelfStoreTests.swift */,
+				D9DF96ED4BA310F61F4198A9 /* TipJarServiceTests.swift */,
+			);
+			path = DropShelfTests;
+			sourceTree = "<group>";
+		};
+		DE9D86A05EF0819C95D55DAE /* Window */ = {
+			isa = PBXGroup;
+			children = (
+				42A17EC006C77DBF43838B12 /* OnboardingWindowController.swift */,
+				25398BCD7ED1E103106AFB0A /* PreferencesWindowController.swift */,
+				5E98DBC71AFD3F4F7D188C04 /* ShelfHostingView.swift */,
+				BB750462141A5D1C76CC9832 /* ShelfPanel.swift */,
+				984447CF87CAFA6A7A5FE9FA /* ShelfPanelController.swift */,
+			);
+			path = Window;
+			sourceTree = "<group>";
+		};
+		FBB1F7A0EA4112F12CAD963D = {
+			isa = PBXGroup;
+			children = (
+				2A529DA703F5253756FE5A83 /* DropShelf */,
+				A520B2CFA82D42958EF56A4D /* DropShelfTests */,
+				2DEE7B30CA71C4831092DDEE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04785A3A08B44208E27C23C8 /* DropShelf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9DAB739C06ED864161A4022 /* Build configuration list for PBXNativeTarget "DropShelf" */;
+			buildPhases = (
+				66C749F91DE642A83E18347F /* Sources */,
+				17A72E1F57437BDDF2D05438 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DropShelf;
+			packageProductDependencies = (
+			);
+			productName = DropShelf;
+			productReference = 36C6D9A8793F1AFBA0FBC117 /* DropShelf.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5D37211E55E231E0A8ABE0EA /* DropShelfTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C19D0FC41B2C1A9991698690 /* Build configuration list for PBXNativeTarget "DropShelfTests" */;
+			buildPhases = (
+				20A8BFE3A4E542C5559372D1 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD918C2B24281067546FB1A8 /* PBXTargetDependency */,
+			);
+			name = DropShelfTests;
+			packageProductDependencies = (
+			);
+			productName = DropShelfTests;
+			productReference = D19BDB042239EB8FD3D93300 /* DropShelfTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB0B669E0A7CD74B445A3E6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					04785A3A08B44208E27C23C8 = {
+						DevelopmentTeam = XU5SY9X97G;
+					};
+					5D37211E55E231E0A8ABE0EA = {
+						DevelopmentTeam = XU5SY9X97G;
+					};
+				};
+			};
+			buildConfigurationList = D44F0877F815917E66AFCA5A /* Build configuration list for PBXProject "DropShelf" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+				tr,
+			);
+			mainGroup = FBB1F7A0EA4112F12CAD963D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 2DEE7B30CA71C4831092DDEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04785A3A08B44208E27C23C8 /* DropShelf */,
+				5D37211E55E231E0A8ABE0EA /* DropShelfTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17A72E1F57437BDDF2D05438 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C614361D2F49C41DCEFB2113 /* Assets.xcassets in Resources */,
+				165979AE80CBED939AA431EC /* DropShelf.storekit in Resources */,
+				A4F5FF0A1FD8F99AB1A8CECC /* Localizable.xcstrings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20A8BFE3A4E542C5559372D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFC2BA3D0DC0F76B7BE42173 /* DropShelfTests.swift in Sources */,
+				0F22038EC5CC0C5FF9F1577E /* ModelPersistenceTests.swift in Sources */,
+				9DA36DADB1E9C98A47679BE6 /* ShelfStoreTests.swift in Sources */,
+				5B2295FAFC8852360E786B7C /* TipJarServiceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66C749F91DE642A83E18347F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98767D88D638470F3CFCD1E4 /* AppDelegate.swift in Sources */,
+				6293DF5A542E95772FDC84B4 /* BookmarkService.swift in Sources */,
+				038E465E877735B418FD64C9 /* DropShelfApp.swift in Sources */,
+				87DBCA4DFAB63D0A0B696A99 /* HotKeyService.swift in Sources */,
+				541EADF187E68273967873BD /* LoginItemService.swift in Sources */,
+				F56F26D7BC488AF44FCBCDDB /* OnboardingView.swift in Sources */,
+				91ECA59CCA05E4C439152BF3 /* OnboardingWindowController.swift in Sources */,
+				447F4178B8FF80A1C611DAFA /* PersistenceService.swift in Sources */,
+				AABB5E46CF13BBD4E9BC4706 /* PreferencesView.swift in Sources */,
+				295673ACC062A55F27110505 /* PreferencesWindowController.swift in Sources */,
+				8F04A7578171132C4BDEA8EC /* QuickLookService.swift in Sources */,
+				B81576031D4BFE45227CE09C /* ShelfActionService.swift in Sources */,
+				47884BDF068A871F26F2F7BC /* ShelfDragState.swift in Sources */,
+				149010B1AEF178E900008479 /* ShelfDragView.swift in Sources */,
+				B10F6E5F9BA5B6FFB810106E /* ShelfDropState.swift in Sources */,
+				BED00DC4C561BFEAD640AD55 /* ShelfHostingView.swift in Sources */,
+				2014C630582872D63F0EAD02 /* ShelfItem.swift in Sources */,
+				005AB098D08801F680DEDC2D /* ShelfPanel.swift in Sources */,
+				118741C966DC65E438A69305 /* ShelfPanelController.swift in Sources */,
+				B89FAF73953C7A0922D03FC5 /* ShelfRootView.swift in Sources */,
+				2DDF47F330634518B0722FC3 /* ShelfStore.swift in Sources */,
+				3A75797F1DF6EC576034DC4B /* TipJarService.swift in Sources */,
+				BB374FEF22061C01D9DDB09E /* TipJarView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD918C2B24281067546FB1A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04785A3A08B44208E27C23C8 /* DropShelf */;
+			targetProxy = 415225E95E4E15624B722E99 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5E3FB7782EABB55311256B47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DropShelf/Resources/DropShelf.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = agency.okaymedia.DropShelf;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		950C2C1A2F67490347B0AB81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = XU5SY9X97G;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		AB18ED7AE5E7E7BD8D218A34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = XU5SY9X97G;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		AC3E1A8F9E6B1542658BBA77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = agency.okaymedia.DropShelfTests;
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DropShelf.app/Contents/MacOS/DropShelf";
+			};
+			name = Debug;
+		};
+		AD510B213EBE8657D0A032FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = agency.okaymedia.DropShelfTests;
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DropShelf.app/Contents/MacOS/DropShelf";
+			};
+			name = Release;
+		};
+		F31DC3B3CDA1C4BB89B3D532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DropShelf/Resources/DropShelf.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = agency.okaymedia.DropShelf;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C19D0FC41B2C1A9991698690 /* Build configuration list for PBXNativeTarget "DropShelfTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC3E1A8F9E6B1542658BBA77 /* Debug */,
+				AD510B213EBE8657D0A032FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D44F0877F815917E66AFCA5A /* Build configuration list for PBXProject "DropShelf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				950C2C1A2F67490347B0AB81 /* Debug */,
+				AB18ED7AE5E7E7BD8D218A34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F9DAB739C06ED864161A4022 /* Build configuration list for PBXNativeTarget "DropShelf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E3FB7782EABB55311256B47 /* Debug */,
+				F31DC3B3CDA1C4BB89B3D532 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB0B669E0A7CD74B445A3E6C /* Project object */;
+}

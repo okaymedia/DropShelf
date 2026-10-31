@@ -1,0 +1,44 @@
+name: DropShelf
+options:
+  deploymentTarget:
+    macOS: "14.0"
+settings:
+  base:
+    SWIFT_VERSION: "6.0"
+    SWIFT_STRICT_CONCURRENCY: complete
+    DEVELOPMENT_TEAM: XU5SY9X97G
+    ARCHS: "$(ARCHS_STANDARD)"
+targets:
+  DropShelf:
+    type: application
+    platform: macOS
+    sources:
+      - DropShelf
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: agency.okaymedia.DropShelf
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        CODE_SIGN_ENTITLEMENTS: DropShelf/Resources/DropShelf.entitlements
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_LSUIElement: YES
+  DropShelfTests:
+    type: bundle.unit-test
+    platform: macOS
+    sources:
+      - DropShelfTests
+    dependencies:
+      - target: DropShelf
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: agency.okaymedia.DropShelfTests
+schemes:
+  DropShelf:
+    build:
+      targets:
+        DropShelf: all
+        DropShelfTests: [test]
+    run:
+      storeKitConfiguration: DropShelf/Resources/DropShelf.storekit
+    test:
+      targets:
+        - DropShelfTests
